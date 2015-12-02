@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.23107.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SampleMVCApplication", "SampleMVCApplication\SampleMVCApplication.csproj", "{61F627F8-2E96-418F-BB23-A6C77D24E948}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SampleMVCApplication.Tests", "SampleMVCApplication.Tests\SampleMVCApplication.Tests.csproj", "{53DC5074-46DD-4259-A170-E3AB533BCD16}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{61F627F8-2E96-418F-BB23-A6C77D24E948}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{61F627F8-2E96-418F-BB23-A6C77D24E948}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{61F627F8-2E96-418F-BB23-A6C77D24E948}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{61F627F8-2E96-418F-BB23-A6C77D24E948}.Release|Any CPU.Build.0 = Release|Any CPU
+		{53DC5074-46DD-4259-A170-E3AB533BCD16}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{53DC5074-46DD-4259-A170-E3AB533BCD16}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{53DC5074-46DD-4259-A170-E3AB533BCD16}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{53DC5074-46DD-4259-A170-E3AB533BCD16}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		EnterpriseLibraryConfigurationToolBinariesPathV6 = packages\EnterpriseLibrary.TransientFaultHandling.6.0.1304.0\lib\portable-net45+win+wp8;packages\EnterpriseLibrary.TransientFaultHandling.Data.6.0.1304.1\lib\NET45
+	EndGlobalSection
+EndGlobal
